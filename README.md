@@ -19,7 +19,7 @@ INSTALLATION
 
 **Clone the repository and navigate to the downloaded folder.**
 ```bash
-git clone https://github.com/PraneetBose/APOINTMENT-MANAGER.git
+git clone https://github.com/PraneetBose/Appointment-manager.git
 cd APOINTMENT-MANAGER
 ```
 
