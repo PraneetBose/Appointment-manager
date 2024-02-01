@@ -1,0 +1,127 @@
+body{
+    font-family: 'Segoe UI' , Tahoma , Geneva ,Verdana, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* change to row if you need the form and text side by side*/
+    align-items: center;
+    scroll-behavior: auto;
+    justify-content: space-around;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    z-index: 2;
+
+}
+
+
+form{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 20px rgba(148,123,182,0.7);
+    background-color: lightsteelblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+select,
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid  #ddd;
+    border-radius: 50px;
+}
+
+
+
+button{
+    background: linear-gradient(to right, #967bb6, #793f8e); /* Lavender-purple gradient */
+    color: white;
+    padding: 14px; /* Increase padding for a larger button */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px; /* Increase font size for better visibility */
+    transition: background 0.3s; /* Add a transition for background color change */
+}
+
+form button:hover{
+    background-position: right center;
+}
+
+/*Animated button*/
+.appointments li a{
+    display: inline-block;
+    padding: 12px;
+    margin-left: 10px;
+    color: mediumpurple;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s,transform 0.3s;
+
+}
+
+.appointments li a:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+.flash-messages {
+    list-style: none;
+    padding: 0;
+}
+
+.flash-message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.flash-message.success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.flash-message.danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.upcoming-appointments {
+    max-width: 600px; /* Match the form's max-width for consistency */
+    margin: 20px auto;
+}
+
+.appointments {
+    list-style: none;
+    padding: 0;
+}
+
+.appointments li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+
+{
+
+}
